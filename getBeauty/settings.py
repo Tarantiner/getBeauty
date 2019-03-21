@@ -12,10 +12,13 @@ REDIRECT_ENABLED = False
 RETRY_TIMES = 8
 RETRY_HTTP_CODES = [500, 502, 503, 504, 400, 403, 404, 407, 408]
 
+LOG_FILE="log.txt"
+LOG_LEVEL = 'DEBUG'
+
 ###################################################################################
 # db configurations
 MONGO_URI = 'localhost'
-MONGO_DATABASE = 'beauty'
+MONGO_DATABASE = 'beauty1'
 
 ###################################################################################
 # middleware and pipeline
